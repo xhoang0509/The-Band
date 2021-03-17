@@ -87,6 +87,7 @@ html {
     right: 0;
     z-index: 1;
     font-size: 15px;
+    overflow: hidden;
 }
 #nav {
     display: inline-block;
@@ -136,21 +137,30 @@ html {
 #nav .nav-arrow-down {
     font-size: 14px;
 }
-
+#header .search-icon {
+    display: block;
+}
+#header .menu-mobile,
 #header .search-btn {
     float: right;
-    
+    padding: 0 21px;
 }
+
 #header .search-btn:hover {
     background-color: #f44336;
     cursor: pointer;
 }
-
+#header .menu-mobile:hover {
+    background-color: #ccc;
+}
+#header .menu-mobile:hover .menu-icon {
+    color: #000;
+}
+#header .menu-icon,
 #header .search-icon {
     color: #fff;
     font-size: 20px;
     line-height: 46px;
-    padding: 0 21px;
 }
 
 #slider {
@@ -184,7 +194,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     padding-left: 16px;
-    padding-right: ;
+    padding-right: 16px;
 }
 #content .section-heading {
     text-align: center;
