@@ -140,6 +140,12 @@ html {
 #header .search-icon {
     display: block;
 }
+#header .menu-mobile {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
 #header .menu-mobile,
 #header .search-btn {
     float: right;
