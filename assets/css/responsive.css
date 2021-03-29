@@ -20,6 +20,9 @@
     #nav {
         display: block;
     }
+    .text-content {
+        display: none;
+    }
     #nav > li {
         display: block;
     }
@@ -34,5 +37,13 @@
         color: #fff;
         padding: 5px 41px;
     }
-    
+    #content .s-col-full {
+        width: 100%;
+    }
+    #content .member-avt {
+        width: 60%;
+    }
+    #contact .contact-info {
+        margin-left: 16px;
+    }
 }
