@@ -11,8 +11,6 @@
 3. Mau sac
 4. Kieu dang
  */
-
-
 /* common */ 
 html {
     scroll-behavior: smooth;
@@ -175,11 +173,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-<<<<<<< HEAD
-    background: url("https://xhoang0509.github.io/The-Band/assets/img/chicago.jpg") top center /cover no-repeat;
-=======
-    background: url(The-Band/assets/img/ny.jpg) top center /cover no-repeat;
->>>>>>> d9a9adf0c14ecd95ad3d41389bc11bd777f1428a
+    background: url(https://xhoang0509.github.io/The-Band/assets/img/chicago.jpg) top center / cover no-repeat;
 }
 #slider .text-content {
     position:absolute;
