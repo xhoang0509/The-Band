@@ -176,7 +176,8 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background: url(https://xhoang0509.github.io/The-Band/assets/img/chicago.jpg) top center / cover no-repeat;
+    background: url(../img/chicago.jpg) top center / cover no-repeat;
+    /* https://xhoang0509.github.io/The-Band/assets/img/chicago.jpg */
 }
 #slider .text-content {
     position:absolute;
